@@ -1,0 +1,24 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "This is namaste react by akshay saini",
+  "keywords": [],
+  "homepage": "https://github.com/Deepak-Dhanoliya/namaste-react#readme",
+  "bugs": {
+    "url": "https://github.com/Deepak-Dhanoliya/namaste-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepak-Dhanoliya/namaste-react.git"
+  },
+  "license": "ISC",
+  "author": "Deepak Dhanoliya",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
