@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 let heading = React.createElement(
   "h1",
   {
@@ -24,8 +27,8 @@ let parents = React.createElement(
   "div",
   { id: "parent" },
   React.createElement("div", { id: "child" }, [
-    React.createElement("h1", {key:'child1'}, "I'm h1 tag"),
-    React.createElement("h2", {key: 'child2'}, "I'm h2 tag"),
+    React.createElement("h1", { key: "child1" }, "I'm h1 tag"),
+    React.createElement("h2", { key: "child2" }, "I'm h2 tag"),
   ])
 );
 root.render(parents);
